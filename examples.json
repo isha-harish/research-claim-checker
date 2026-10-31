@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ex_01",
+    "label": "Support and paraphrase",
+    "source": "The trial found that 68% of participants reported improved sleep after eight weeks of using the device.",
+    "claim": "The device was associated with better sleep in many participants.",
+    "expected_label": "Supported"
+  },
+  {
+    "id": "ex_02",
+    "label": "Direct contradiction",
+    "source": "The company discontinued the product in 2021.",
+    "claim": "The product was still sold in 2023.",
+    "expected_label": "Contradicted"
+  },
+  {
+    "id": "ex_03",
+    "label": "Causation confusion",
+    "source": "Sales rose after the advertising campaign, but the report did not establish whether the campaign caused the rise.",
+    "claim": "The advertising campaign caused the sales increase.",
+    "expected_label": "Insufficient evidence"
+  },
+  {
+    "id": "ex_04",
+    "label": "Negation",
+    "source": "The mayor did not attend the emergency briefing.",
+    "claim": "The mayor attended the emergency briefing.",
+    "expected_label": "Contradicted"
+  },
+  {
+    "id": "ex_05",
+    "label": "Numerical mismatch",
+    "source": "Only 33% of patients reported improvement after the treatment.",
+    "claim": "More than half of the patients reported improvement after the treatment.",
+    "expected_label": "Contradicted"
+  },
+  {
+    "id": "ex_06",
+    "label": "Population mismatch",
+    "source": "In a study of 150 children with asthma, the treatment reduced symptom severity.",
+    "claim": "The treatment reduced symptom severity in adults with asthma.",
+    "expected_label": "Insufficient evidence"
+  },
+  {
+    "id": "ex_07",
+    "label": "Time period mismatch",
+    "source": "The 2024 audit found emissions fell by 8% compared with 2023.",
+    "claim": "Emissions fell in 2022.",
+    "expected_label": "Insufficient evidence"
+  },
+  {
+    "id": "ex_08",
+    "label": "Some versus all",
+    "source": "Some residents supported the zoning change, while others opposed it.",
+    "claim": "All residents supported the zoning change.",
+    "expected_label": "Contradicted"
+  },
+  {
+    "id": "ex_09",
+    "label": "Explicit support",
+    "source": "The policy reduced average wait times from 14 minutes to 9 minutes.",
+    "claim": "Average wait times decreased after the policy.",
+    "expected_label": "Supported"
+  },
+  {
+    "id": "ex_10",
+    "label": "No significant difference",
+    "source": "Researchers found no significant difference in outcomes between the treatment and control groups.",
+    "claim": "The treatment improved outcomes for all patients.",
+    "expected_label": "Contradicted"
+  },
+  {
+    "id": "ex_11",
+    "label": "Neutral evidence",
+    "source": "The device was tested in a laboratory under controlled conditions.",
+    "claim": "The device is safe for home use.",
+    "expected_label": "Insufficient evidence"
+  },
+  {
+    "id": "ex_12",
+    "label": "Minority support",
+    "source": "Only 12 out of 40 participants reported side effects.",
+    "claim": "A minority of participants reported side effects.",
+    "expected_label": "Supported"
+  }
+]

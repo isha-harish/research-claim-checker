@@ -1,0 +1,79 @@
+[
+  {
+    "id": "real_01",
+    "paper_title": "Attention Is All You Need",
+    "paper_url": "https://arxiv.org/abs/1706.03762",
+    "section": "Abstract",
+    "source": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+    "claim": "The Transformer relies only on attention mechanisms and removes recurrence and convolution.",
+    "expected_label": "Supported",
+    "justification": "This is a direct paraphrase of the abstract sentence about the architecture.",
+    "constructed_for_testing": true
+  },
+  {
+    "id": "real_02",
+    "paper_title": "Attention Is All You Need",
+    "paper_url": "https://arxiv.org/abs/1706.03762",
+    "section": "Abstract",
+    "source": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+    "claim": "The dominant sequence transduction models use recurrent and convolutional neural networks, while the Transformer keeps those components.",
+    "expected_label": "Contradicted",
+    "justification": "The excerpt explicitly says the older models are recurrent/convolutional and the Transformer dispenses with them; the claim reverses that statement.",
+    "constructed_for_testing": true
+  },
+  {
+    "id": "real_03",
+    "paper_title": "Attention Is All You Need",
+    "paper_url": "https://arxiv.org/abs/1706.03762",
+    "section": "Abstract",
+    "source": "Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train.",
+    "claim": "The Transformer is the best architecture for every NLP task.",
+    "expected_label": "Insufficient evidence",
+    "justification": "The excerpt reports two translation tasks only, not universal superiority across all NLP tasks.",
+    "constructed_for_testing": true
+  },
+  {
+    "id": "real_04",
+    "paper_title": "Attention Is All You Need",
+    "paper_url": "https://arxiv.org/abs/1706.03762",
+    "section": "Abstract",
+    "source": "We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+    "claim": "The Transformer works equally well on every language task and dataset size.",
+    "expected_label": "Insufficient evidence",
+    "justification": "The excerpt says it generalizes well to other tasks and parsing, not that performance is equal across every task or dataset regime.",
+    "constructed_for_testing": true
+  },
+  {
+    "id": "real_05",
+    "paper_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "paper_url": "https://arxiv.org/abs/1810.04805",
+    "section": "Abstract",
+    "source": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.",
+    "claim": "BERT is pretrained to condition on both left and right context in all layers.",
+    "expected_label": "Supported",
+    "justification": "This closely restates the abstract sentence describing BERT’s bidirectional pretraining.",
+    "constructed_for_testing": true
+  },
+  {
+    "id": "real_06",
+    "paper_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "paper_url": "https://arxiv.org/abs/1810.04805",
+    "section": "Abstract",
+    "source": "Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.",
+    "claim": "BERT is a unidirectional language model trained only on left-to-right context.",
+    "expected_label": "Contradicted",
+    "justification": "The excerpt explicitly says BERT is bidirectional and conditions on both left and right context, which directly contradicts the claim.",
+    "constructed_for_testing": true
+  },
+  {
+    "id": "real_07",
+    "paper_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "paper_url": "https://arxiv.org/abs/1810.04805",
+    "section": "Abstract",
+    "source": "BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+    "claim": "BERT is the best model for every NLP task and every benchmark.",
+    "expected_label": "Insufficient evidence",
+    "justification": "The excerpt supports strong results on eleven tasks, not universal dominance on every NLP benchmark or task.",
+    "constructed_for_testing": true
+  }
+]

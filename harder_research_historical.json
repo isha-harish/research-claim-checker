@@ -1,0 +1,15 @@
+[
+  {
+    "id": "hard_05_original",
+    "paper_title": "MobileNetV2: Inverted Residuals and Linear Bottlenecks",
+    "paper_url": "https://arxiv.org/abs/1801.04381",
+    "section": "Abstract",
+    "source": "In this paper we describe a new mobile architecture, MobileNetV2, that improves the state of the art performance of mobile models on multiple tasks and benchmarks as well as across a spectrum of different model sizes. We also describe efficient ways of applying these mobile models to object detection in a novel framework we call SSDLite. Additionally, we demonstrate how to build mobile semantic segmentation models through a reduced...",
+    "claim": "This architecture is reliable for clinical imaging because it works well across many mobile vision settings.",
+    "expected_label": "Insufficient evidence",
+    "justification": "The excerpt covers mobile vision tasks and benchmarks, but it does not mention clinical imaging or establish generalization to medical settings.",
+    "constructed_for_testing": true,
+    "historical_note": "This was the first-run hard_05 record, retained for historical transparency; it was replaced after the first evaluation to satisfy the requirement for a different source type and a real discussion paragraph.",
+    "first_run_result": "Insufficient evidence"
+  }
+]

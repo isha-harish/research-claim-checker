@@ -1,0 +1,57 @@
+[
+  {
+    "id": "hard_01",
+    "paper_title": "Deep Residual Learning for Image Recognition",
+    "paper_url": "https://arxiv.org/abs/1512.03385",
+    "section": "Abstract",
+    "source": "On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers—8 × deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task.",
+    "claim": "Residual networks reached up to 152 layers, achieved 3.57% ImageNet test error, and won the 2015 ImageNet classification competition.",
+    "expected_label": "Supported",
+    "justification": "This is a faithful paraphrase of the paper’s reported ImageNet result and competition win.",
+    "constructed_for_testing": true
+  },
+  {
+    "id": "hard_02",
+    "paper_title": "Deep Residual Learning for Image Recognition",
+    "paper_url": "https://arxiv.org/abs/1512.03385",
+    "section": "Abstract",
+    "source": "On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers—8 × deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task.",
+    "claim": "Residual nets were more complex than VGG networks on this task.",
+    "expected_label": "Contradicted",
+    "justification": "The excerpt explicitly says the residual nets were deeper than VGG but still had lower complexity, which contradicts the claim.",
+    "constructed_for_testing": true
+  },
+  {
+    "id": "hard_03",
+    "paper_title": "Deep Residual Learning for Image Recognition",
+    "paper_url": "https://arxiv.org/abs/1512.03385",
+    "section": "Abstract",
+    "source": "On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers—8 × deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task.",
+    "claim": "Residual networks are the leading approach in modern image recognition.",
+    "expected_label": "Insufficient evidence",
+    "justification": "The excerpt supports the specific ILSVRC 2015 ImageNet result, but it does not establish a general claim about modern image recognition leadership.",
+    "constructed_for_testing": true
+  },
+  {
+    "id": "hard_04",
+    "paper_title": "Deep Residual Learning for Image Recognition",
+    "paper_url": "https://arxiv.org/abs/1512.03385",
+    "section": "Abstract",
+    "source": "On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers—8 × deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task.",
+    "claim": "The residual ensemble reached 3.57% error on the ImageNet test set, while the prior baseline had 2.9% error under the same conditions.",
+    "expected_label": "Insufficient evidence",
+    "justification": "The excerpt gives the 3.57% result but provides no baseline value, and the claim introduces a different number under the same conditions without support from the source.",
+    "constructed_for_testing": true
+  },
+  {
+    "id": "hard_05",
+    "paper_title": "The role of mass transfer and common envelope evolution in the formation of merging binary black holes",
+    "paper_url": "https://arxiv.org/abs/2103.09243",
+    "section": "Discussion",
+    "source": "Our conclusions are limited to the study of one donor mass at a single metallicity, but suggest that population synthesis calculations overestimate the formation rate of merging binary black holes produced by common-envelope evolution, and that stable mass transfer could dominate the formation rate from isolated binaries. This is in agreement with a few other recent studies. Further work is required to extend these results to different masses and metallicities, and to understand how they can be incorporated into rapid population synthesis calculations.",
+    "claim": "The paper shows stable mass transfer is already the dominant pathway in isolated binaries.",
+    "expected_label": "Insufficient evidence",
+    "justification": "The paper says the result suggests this possibility and notes the conclusions are limited to one donor mass and one metallicity; it does not establish a general dominant pathway.",
+    "constructed_for_testing": true
+  }
+]
